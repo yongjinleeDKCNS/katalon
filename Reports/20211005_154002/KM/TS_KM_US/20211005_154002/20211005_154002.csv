@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_KM_US,Chrome 94.0.4606.61,,,2021-10-05 15:40:15,2021-10-05 15:40:35,19.277s,PASSED
+,,,,,,,
+Test Cases/KM/TC_KM_WEB_01_US_PRD,Chrome 94.0.4606.61,,,2021-10-05 15:40:16,2021-10-05 15:40:35,18.720s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.61,,,2021-10-05 15:40:17,2021-10-05 15:40:21,4.485s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 94.0.4606.61,,,2021-10-05 15:40:21,2021-10-05 15:40:22,0.217s,PASSED
+"navigateToUrl(""https://km2.myeyelevel.com/"")",Chrome 94.0.4606.61,,,2021-10-05 15:40:22,2021-10-05 15:40:24,2.279s,PASSED
+"setText(findTestObject(""Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/input_Remember ID_id""), ""FC00001854"")",Chrome 94.0.4606.61,,,2021-10-05 15:40:24,2021-10-05 15:40:25,1.084s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/input_Remember ID_password""), ""/TCuZW3inmPEvew6k7Utpg=="")",Chrome 94.0.4606.61,,,2021-10-05 15:40:25,2021-10-05 15:40:26,0.530s,PASSED
+"click(findTestObject(""Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/button_Log in""))",Chrome 94.0.4606.61,,,2021-10-05 15:40:26,2021-10-05 15:40:27,1.191s,PASSED
+"click(findTestObject(""Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/a_Member""))",Chrome 94.0.4606.61,,,2021-10-05 15:40:27,2021-10-05 15:40:32,5.149s,PASSED
+"click(findTestObject(""Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/a_Log out""))",Chrome 94.0.4606.61,,,2021-10-05 15:40:32,2021-10-05 15:40:34,1.971s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 94.0.4606.61,,,2021-10-05 15:40:34,2021-10-05 15:40:35,0.836s,PASSED
