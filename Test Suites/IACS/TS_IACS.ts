@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/IACS/TC_IACS_WEB_01</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c16c47ef-e45d-4151-8d33-a27d8ee5c239</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/IACS/TC_IAMS_WEB_01</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

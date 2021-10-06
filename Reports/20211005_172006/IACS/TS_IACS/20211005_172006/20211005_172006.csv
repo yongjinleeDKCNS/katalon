@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_IACS,Chrome 94.0.4606.61,,,2021-10-05 17:20:20,2021-10-05 17:20:44,24.346s,PASSED
+,,,,,,,
+Test Cases/IACS/TC_IACS_WEB_01,Chrome 94.0.4606.61,,,2021-10-05 17:20:21,2021-10-05 17:20:44,23.787s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.61,,,2021-10-05 17:20:22,2021-10-05 17:20:26,4.544s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 94.0.4606.61,,,2021-10-05 17:20:26,2021-10-05 17:20:26,0.213s,PASSED
+"navigateToUrl(""https://iacs.daekyo.co.kr/SSO/DAEKYO/Login_V.aspx"")",Chrome 94.0.4606.61,,,2021-10-05 17:20:26,2021-10-05 17:20:27,1.106s,PASSED
+"setText(findTestObject(""Object Repository/IACS/OR_IACS_WEB_01/Page_/input__txtLoginID""), ""9999"")",Chrome 94.0.4606.61,,,2021-10-05 17:20:27,2021-10-05 17:20:28,0.935s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/IACS/OR_IACS_WEB_01/Page_/input__txtLoginPwd""), ""AZhG8XlQ3CaMX6VfVO6MmA=="")",Chrome 94.0.4606.61,,,2021-10-05 17:20:28,2021-10-05 17:20:29,0.571s,PASSED
+"click(findTestObject(""Object Repository/IACS/OR_IACS_WEB_01/Page_/a_Login""))",Chrome 94.0.4606.61,,,2021-10-05 17:20:29,2021-10-05 17:20:29,0.524s,PASSED
+delay(10),Chrome 94.0.4606.61,,,2021-10-05 17:20:29,2021-10-05 17:20:40,10.059s,PASSED
+"click(findTestObject(""Object Repository/IACS/OR_IACS_WEB_01/Page_/a_""))",Chrome 94.0.4606.61,,,2021-10-05 17:20:40,2021-10-05 17:20:40,0.724s,PASSED
+"click(findTestObject(""IACS/OR_IACS_WEB_01/Page_/a_ (1)""))",Chrome 94.0.4606.61,,,2021-10-05 17:20:40,2021-10-05 17:20:43,2.297s,PASSED
+"click(findTestObject(""Object Repository/IACS/OR_IACS_WEB_01/Page_/span_""))",Chrome 94.0.4606.61,,,2021-10-05 17:20:43,2021-10-05 17:20:44,1.087s,PASSED
+closeBrowser(),Chrome 94.0.4606.61,,,2021-10-05 17:20:44,2021-10-05 17:20:44,0.764s,PASSED

@@ -17,4 +17,34 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/KM/TC_KM_WEB_01_US_PRD</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fe5e5ca4-0f9b-4e8a-a741-b8088bc5ff47</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_WEB_02_US_KEYPAD</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f05d8572-2aa7-46c8-88a7-564d2f679170</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_WEB_03_US_ADMIN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>144e9e8f-cc7c-47fe-a506-d0cc4d7a37bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_WEB_04_CN_PRD</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>574efe54-70c8-4bc6-b64d-290165c40447</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_WEB_05_CN_KEYPAD</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>686b6410-0ea4-47c7-a2d1-434e70024b4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_WEB_06_CN_ADMIN</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
