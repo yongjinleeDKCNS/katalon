@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/KM/TC_KM_WEB_06_CN_ADMIN</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>027501af-683c-47d6-95dd-eab3ca3ddee8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KM/TC_KM_API_01_US_KNOWRE</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
