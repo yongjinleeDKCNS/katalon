@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://iams.daekyo.co.kr/SSO/DAEKYO/Login_V.aspx')
+WebUI.navigateToUrl('https://iams.daekyo.co.kr')
 
 WebUI.setText(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/input__txtLoginID'), '9999')
 
