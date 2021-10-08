@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/a_Student",
+      "brokenLocator": "//div[@id\u003d\u0027mCSB_4_container\u0027]/div/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Lead\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KM/OR_KM_WEB_01_US_PRD/Page_KeyManager ver.2/a_Student_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a_",
+      "brokenLocator": "//div[@id\u003d\u0027mCSB_4_container\u0027]/div/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027潜在学员\u0027])[1]/preceding::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a__neighbor.png"
+    }
+  ]
 }

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://cnkm.myeyelevel.com/')
 
@@ -28,11 +28,22 @@ WebUI.setText(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyM
 WebUI.setEncryptedText(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/input__password'), 
     '/TCuZW3inmPEvew6k7Utpg==')
 
-WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/button_'))
+WebUI.sendKeys(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/input__password'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a_'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a__1'))
 
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a__1_2'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

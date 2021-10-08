@@ -31,7 +31,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/KM/OR_KM_WEB_05_CN_KEYP
 WebUI.sendKeys(findTestObject('Object Repository/KM/OR_KM_WEB_05_CN_KEYPAD/Page_KeyManager ver.2/input__password'), Keys.chord(
         Keys.ENTER))
 
+WebUI.delay(2)
+
 WebUI.navigateToUrl('http://cnkm-att.myeyelevel.com/actionLogout.do')
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

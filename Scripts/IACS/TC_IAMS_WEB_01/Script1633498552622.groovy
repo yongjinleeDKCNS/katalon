@@ -29,11 +29,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Pag
 
 WebUI.sendKeys(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/input__txtLoginPwd'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/a_'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('IACS/OR_IAMS_WEB_01/Page_/a_ (1)'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/span_'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

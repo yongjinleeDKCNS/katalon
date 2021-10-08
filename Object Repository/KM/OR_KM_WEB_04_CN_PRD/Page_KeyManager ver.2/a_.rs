@@ -3,15 +3,15 @@
    <description></description>
    <name>a_</name>
    <tag></tag>
-   <elementGuidId>a05815ae-2ee9-4800-a252-d008ac32c895</elementGuidId>
+   <elementGuidId>72262ae8-6089-4da7-87c9-e07a40abe4ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mCSB_4_container']/div/ul/li/ul/li[3]/a</value>
+         <value>//div[@id='mCSB_4_container']/div/ul/li/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +28,68 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/member/list.do</value>
+      <value>/dashboard/member.do</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>学员</value>
+      <value>
+							
+							
+							
+							
+							 学生
+						</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_4_container&quot;)/div[@class=&quot;menu_section&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[@class=&quot;parent_menu active&quot;]/ul[@class=&quot;nav child_menu&quot;]/li[3]/a[1]</value>
+      <value>id(&quot;mCSB_4_container&quot;)/div[@class=&quot;menu_section&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[@class=&quot;parent_menu active&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mCSB_4_container']/div/ul/li/ul/li[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'学员')])[2]</value>
+      <value>//div[@id='mCSB_4_container']/div/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='沟通'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='潜在学员'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='潜在学员'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='沟通'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='短信'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='大量留言'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='学员']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='学生']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/member/list.do')]</value>
+      <value>//a[contains(@href, '/dashboard/member.do')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/ul/li[3]/a</value>
+      <value>//a</value>
    </webElementXpaths>
 </WebElementEntity>

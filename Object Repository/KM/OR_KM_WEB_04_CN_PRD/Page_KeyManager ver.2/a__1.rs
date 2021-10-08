@@ -3,15 +3,15 @@
    <description></description>
    <name>a__1</name>
    <tag></tag>
-   <elementGuidId>fd222228-da46-4305-b46c-91db7ecd5c97</elementGuidId>
+   <elementGuidId>2573f32b-a1f0-4b70-93db-233838438cbe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'退出')]</value>
+         <value>//div[@id='mCSB_4_container']/div/ul/li/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.head-logout</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +28,83 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/actionLogout.do</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>head-logout</value>
+      <value>/member/list.do</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>退出</value>
+      <value>学员</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;desktop portrait web&quot;]/body[@class=&quot;nav-md&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;right_col&quot;]/div[@class=&quot;nav_menu&quot;]/div[@class=&quot;nav_menu&quot;]/div[@class=&quot;head-wrap&quot;]/div[@class=&quot;pull-right head-user-info pr-3&quot;]/a[@class=&quot;head-logout&quot;]</value>
+      <value>id(&quot;mCSB_4_container&quot;)/div[@class=&quot;menu_section&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[@class=&quot;parent_menu active&quot;]/ul[@class=&quot;nav child_menu&quot;]/li[3]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mCSB_4_container']/div/ul/li/ul/li[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'退出')]</value>
+      <value>(//a[contains(text(),'学员')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='入门测试'])[2]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='沟通'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='仪表板'])[1]/following::a[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='潜在学员'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GFC KM2 Test Center Director (FC00001854)'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='短信'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='修改密码'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='大量留言'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='退出']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='学员']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/actionLogout.do')]</value>
+      <value>//a[contains(@href, '/member/list.do')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
+      <value>//li/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

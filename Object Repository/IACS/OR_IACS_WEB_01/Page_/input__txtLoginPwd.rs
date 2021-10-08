@@ -3,7 +3,7 @@
    <description></description>
    <name>input__txtLoginPwd</name>
    <tag></tag>
-   <elementGuidId>7efc4fac-7092-462f-90b5-9c3c69b525cd</elementGuidId>
+   <elementGuidId>d0f2c6bf-8cac-42f8-a553-04378e034661</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

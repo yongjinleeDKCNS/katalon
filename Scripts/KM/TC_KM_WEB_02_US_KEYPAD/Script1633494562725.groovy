@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://km2-att.myeyelevel.com/')
 
 WebUI.setText(findTestObject('Object Repository/KM/OR_KM_WEB_02_US_KEYPAD/Page_KeyManager ver.2/input_Remember ID_id'), 
@@ -30,7 +32,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/KM/OR_KM_WEB_02_US_KEYP
 WebUI.sendKeys(findTestObject('Object Repository/KM/OR_KM_WEB_02_US_KEYPAD/Page_KeyManager ver.2/input_Remember ID_password'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.delay(2)
+
 WebUI.navigateToUrl('https://km2-att.myeyelevel.com/actionLogout.do')
+
+WebUI.delay(2)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

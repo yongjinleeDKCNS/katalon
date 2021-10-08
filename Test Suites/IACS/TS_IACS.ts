@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>629fce80-0f2c-42e0-ba98-280ff9f6601f</testSuiteGuid>
    <testCaseLink>
-      <guid>f862142b-da8f-4c6c-b741-0be9f60dfe38</guid>
+      <guid>1136a84d-9f4d-438d-98ae-e741ace6103f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IACS/TC_IACS_WEB_01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c16c47ef-e45d-4151-8d33-a27d8ee5c239</guid>
+      <guid>9235e3ab-5ceb-4ed0-a231-48352aaf06e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/IACS/TC_IAMS_WEB_01</testCaseId>

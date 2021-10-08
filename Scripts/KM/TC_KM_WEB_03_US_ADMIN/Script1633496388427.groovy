@@ -31,15 +31,27 @@ WebUI.setEncryptedText(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMI
 WebUI.sendKeys(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/input_Remember ID_password'), 
     Keys.chord(Keys.ENTER))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/a_'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/a_()'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/a__1'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/a__1_2'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/KM/OR_KM_WEB_03_US_ADMIN/Page_KeyManager ver.2/a_Logout'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
