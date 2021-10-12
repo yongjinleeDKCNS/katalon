@@ -23,6 +23,8 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://iams.daekyo.co.kr')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/input__txtLoginID'), '9999')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/IACS/OR_IAMS_WEB_01/Page_/Page_/input__txtLoginPwd'), 'AZhG8XlQ3CaMX6VfVO6MmA==')
