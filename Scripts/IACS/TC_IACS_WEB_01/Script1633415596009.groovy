@@ -23,7 +23,11 @@ WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://iacs.daekyo.co.kr')
 
-WebUI.delay(5)
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/IACS/OR_IACS_WEB_01/Page_/input__txtLoginID'), '9999')
 
