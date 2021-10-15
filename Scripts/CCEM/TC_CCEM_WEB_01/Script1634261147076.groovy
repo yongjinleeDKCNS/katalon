@@ -21,27 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://daekyo-ccm.zendesk.com/access/unauthenticated?return_to=https%3A%2F%2Fdaekyo-ccm.zendesk.com%2Fagent')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input__useremail'), 'seunghee_kim@daekyo.co.kr')
+WebUI.setText(findTestObject('CCEM/OR_CCEM_WEB_01/input__useremail'), 'seunghee_kim@daekyo.co.kr')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input__userpassword'), 'vMf77duh+KrTtHmfJtO4mg==')
+WebUI.setEncryptedText(findTestObject('CCEM/OR_CCEM_WEB_01/input__userpassword'), 'vMf77duh+KrTtHmfJtO4mg==')
 
-WebUI.click(findTestObject('Object Repository/Page_/input__commit'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/input__commit'))
 
-WebUI.click(findTestObject('Object Repository/Page_-/svg_Zendesk_ember2622'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/svg_Zendesk_ember2622'))
 
-WebUI.click(findTestObject('Object Repository/Page_-/a_ (2)'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/a_ (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_-/div_ (2)'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/div_ (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_-/input__searchInputCheck (2)'), '서지연')
+WebUI.setText(findTestObject('CCEM/OR_CCEM_WEB_01/input__searchInputCheck (2)'), '서지연')
 
-WebUI.setText(findTestObject('Object Repository/Page_-/input__searchInputCheck_1 (2)'), '1049')
+WebUI.setText(findTestObject('CCEM/OR_CCEM_WEB_01/input__searchInputCheck_1 (2)'), '1049')
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_-/div_010-2382-1049'))
+WebUI.doubleClick(findTestObject('CCEM/OR_CCEM_WEB_01/div_010-2382-1049'))
 
-WebUI.click(findTestObject('Object Repository/Page_-/figure__ProfileMenu__StyledAvatar-sc-1ck6yn_754263'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/figure__ProfileMenu__StyledAvatar-sc-1ck6yn_754263'))
 
-WebUI.click(findTestObject('Object Repository/Page_-/li_'))
+WebUI.click(findTestObject('CCEM/OR_CCEM_WEB_01/li_'))
 
 WebUI.closeBrowser()
 

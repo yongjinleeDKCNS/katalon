@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>div_ (1)</name>
    <tag></tag>
-   <elementGuidId>208479d1-fb15-411d-a36f-4f2672e53dd3</elementGuidId>
+   <elementGuidId>dfa4427c-b63f-43d9-81f2-d20d90548707</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#customerSearch</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='customerSearch']</value>
+         <value>//div[@id='customerSearchList_grid']/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
+      <value>tui-grid-cell-content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>customerSearch</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#customerSearchTab_main</value>
+      <value>서지연</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>고객찾기</value>
+      <value>서지연</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;customerSearch&quot;)</value>
+      <value>id(&quot;customerSearchList_grid&quot;)/div[@class=&quot;tui-grid-container tui-grid-show-lside-area&quot;]/div[@class=&quot;tui-grid-content-area&quot;]/div[@class=&quot;tui-grid-rside-area&quot;]/div[@class=&quot;tui-grid-body-area&quot;]/div[@class=&quot;tui-grid-body-container&quot;]/div[@class=&quot;tui-grid-table-container&quot;]/table[@class=&quot;tui-grid-table&quot;]/tbody[1]/tr[@class=&quot;tui-grid-row-odd tui-grid-row-hover tui-grid-cell-current-row&quot;]/td[@class=&quot;tui-grid-cell tui-grid-cell-has-input&quot;]/div[@class=&quot;tui-grid-cell-content&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_-/iframe_CCEM_app_CCEM_top_bar_f84b5e74-232f-_7cf281</value>
+      <value>Object Repository/CCEM/OR_CCEM_WEB_01/iframe_CCEM_app_CCEM_top_bar_41643347-9209-_23b497</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='customerSearch']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'고객찾기')]</value>
+      <value>//div[@id='customerSearchList_grid']/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='고객정보'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MB'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='고객'])[1]/preceding::a[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='주◎'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='선생님'])[1]/preceding::a[15]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M1[중등1]'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='고객찾기']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='경기 화성시 석우동 55번지 146동 1301호'])[1]/preceding::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '#customerSearchTab_main')]</value>
+      <value>//*/text()[normalize-space(.)='서지연']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//ul[2]/li[2]/a</value>
+      <value>//td[3]/div</value>
    </webElementXpaths>
 </WebElementEntity>
