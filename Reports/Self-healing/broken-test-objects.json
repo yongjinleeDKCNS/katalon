@@ -19,6 +19,56 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/KM/OR_KM_WEB_04_CN_PRD/Page_KeyManager ver.2/a__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_-/path_Zendesk_Fill-1",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027Fill-1\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_-/path_Zendesk_Fill-1_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_-/iframe_CCEM_app_CCEM_top_bar_41643347-9209-_23b497",
+      "brokenLocator": "//iframe[@name\u003d\u0027app_CCEM_top_bar_41643347-9209-409e-9414-8fb3686ca319\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_-/iframe_CCEM_app_CCEM_top_bar_41643347-9209-_23b497_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_-/iframe_CCEM_app_CCEM_top_bar_c229f45b-98c9-_007534",
+      "brokenLocator": "//iframe[@name\u003d\u0027app_CCEM_top_bar_c229f45b-98c9-4d01-8b43-7d9c95c1bd56\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_-/iframe_CCEM_app_CCEM_top_bar_c229f45b-98c9-_007534_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_-/div_010-2382-1049",
+      "brokenLocator": "//div[@id\u003d\u0027customerSearchList_grid\u0027]/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[7]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027first\u0027])[1]/preceding::div[24]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_-/div_010-2382-1049_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_-/figure__ProfileMenu__StyledAvatar-sc-1ck6yn_754263",
+      "brokenLocator": "//div[@id\u003d\u0027ember1760\u0027]/button/figure",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027추가\u0027])[1]/following::figure[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_-/figure__ProfileMenu__StyledAvatar-sc-1ck6yn_754263_neighbor.png"
     }
   ]
 }
